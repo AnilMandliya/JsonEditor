@@ -1,0 +1,45 @@
+{
+    "nrconfigs": [
+        {
+            "slice_min": 700,
+            "slice_max": 740,
+            "plot": true,
+            "mean": false
+        },
+        {
+            "sanity_check": true,
+            "plot": true,
+            "savgol": true,
+            "savgol_window_length": 11
+        }
+    ],
+    "rconfigs": [
+        {
+            "slice_min": 700,
+            "slice_max": 740,
+            "plot": true
+        },
+        {
+            "savgol": true,
+            "savgol_window_length": 11,
+            "plot": true
+        },
+        {
+            "normout": true,
+            "nrref": true,
+            "savgol": true,
+            "mean": false,
+            "savgol_window_length": 11,
+            "plot": true
+        }
+    ],
+    "cars_config": [
+        {
+            "slice_min": 700,
+            "slice_max": 740,
+            "resample_points_per_unit": 30,
+            "cars_m": 0,
+            "kramers_kronig": true
+        }
+    ]
+}
