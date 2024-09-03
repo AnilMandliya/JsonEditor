@@ -10,7 +10,7 @@ Basic editor for JSON files based on MVC [Model View Control] Architecture in Py
 Get all the packages from `conda_env.yml` file
 
 ```
-conda env create -f environment.yml
+conda env create -f conda_env.yml
 ```
 
 ### Launch
