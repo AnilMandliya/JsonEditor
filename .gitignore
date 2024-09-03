@@ -1,0 +1,7 @@
+*~
+*.pyc
+*.log
+build/*
+dist/*
+.vscode/
+temp/*
